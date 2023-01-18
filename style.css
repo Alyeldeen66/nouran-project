@@ -1,0 +1,106 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+h2 {
+  color: #004f85;
+}
+
+.nav {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.nav img {
+  width: 400px;
+  height: 400px;
+}
+
+.headings {
+  margin-top: 10%;
+}
+.team {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team p {
+  text-align: center;
+}
+.bold {
+  font-weight: bold;
+}
+.main {
+  margin-top: 10%;
+}
+.main-introduction {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.items-container {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.main-introduction p {
+  line-height: 1.8;
+}
+.main-item {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.media-container {
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.media-container img {
+  width: 60vw;
+  height: 60vh;
+  border-radius: 1rem;
+}
+
+.image-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav img {
+    width: 300px;
+    height: 300px;
+  }
+  .media-container img {
+    height: 40vh;
+    width: 70vw;
+  }
+  .media-container video {
+    width: 60vw;
+    height: 30vh;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
